@@ -11,4 +11,6 @@ if (firstRandomNum  > secondRandomNum){
     document.querySelector('h1').innerHTML = 'player1 wins!';
 }else if(firstRandomNum  < secondRandomNum){
     document.querySelector('h1').innerHTML = 'player2 wins!';
+}else{
+    document.querySelector('h1').innerHTML = 'Its a Draw';
 }
